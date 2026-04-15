@@ -9,6 +9,22 @@ pip install -r requirements.txt
 cp .env.example .env
 # Add your Gemini API key to .env
 ```
+### Add your resume
+
+Create a `resume.txt` file in the project root and paste your plain text resume into it:
+
+```bash
+# Windows
+notepad resume.txt
+
+# Mac/Linux
+nano resume.txt
+```
+
+Paste your resume as plain text — no formatting needed, just copy from your Word/PDF resume.
+The agent reads this file to score your resume against each job posting.
+
+> Note: `resume.txt` is in `.gitignore` and will never be pushed to GitHub.
 
 Get your free Gemini API key at: https://aistudio.google.com
 
